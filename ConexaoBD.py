@@ -7,8 +7,8 @@ class Connection():
 	def __init__(self):
 		try:
 			self.con = pymysql.connect( host = "localhost", 
-									user = "Milton-Luis", 
-									password = "cocytusbreath1+",
+									user = "user", 
+									password = "pass",
 									charset = "utf8mb4"
 									)
 			self.con.cursor()
