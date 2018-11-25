@@ -57,7 +57,7 @@ class Paciente():
 
 				return "{}\t{}\t\t{}\t\t\t{}\t\t{}\t\t{}\n\n".format(self.id, self.nome,\
 				 self.end, self.altura, self.peso, self.result)
-				# caso utilize terminal
+				# caso utilize terminal comentar o return
 				'''
 				print("{}\t{}\t\t{}\t\t{}\t{}\t{}\n".format(self.id, self.nome,\
 				self.end, self.altura, self.peso, self.result))'''
